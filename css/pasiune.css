@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(221, 218, 218);
+    border-radius: 8px;
+}
+
+body {
+    margin: 0;
+    background-color: #c5c2c2;
+    font-size: 18px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+
+#menu-btn {
+    color: white;
+    font-size: 27px;
+    position: absolute;
+    top: 22px;
+    right: 25px;
+    display: none;
+}
+
+header {
+    height: 70px;
+    background-color: #212e53;
+    position: fixed;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+    z-index: 2;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+aside {
+    width: 230px;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(to bottom, #4a919e, #90a7c4);
+    padding-top: 10px;
+    font-size: 20px;
+    z-index: 2;
+}
+
+aside a {
+    display: block;
+    color: white;
+    text-transform: none;
+    text-align: center;
+    margin-top: 35px;
+    text-decoration: none;
+}
+
+.page-container {
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+.main-pas {
+    margin: 1px 0 0 15%;
+    padding: 0px;
+    z-index: 2;
+}
+
+.title-pas {
+    margin-left: 4%;
+    border-bottom: 4px solid #4a919e;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 40px;
+    color: #003147;
+}
+
+.centered {
+    text-align: center;
+}
+
+.pasiuni {
+    background: linear-gradient(to right, #4a919e, #90a7c4);;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.pasiuni a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.pasiuni a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 7%;
+    position: absolute;
+    /* width: 100%; */
+    /* max-width: 50vw; */
+    margin-top: 3%;
+    box-shadow: 0 1% 1% rgba(7, 7, 7, 0.1) !important;
+}
+
+.robotica, .site {
+    /* margin-left: 18% !important; */
+    margin-bottom: 2% !important;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* margin-bottom: 20px; */
+}
+
+h2 {
+    margin-left: 4%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #003147;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gallery img {
+    margin-bottom: 15px;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px !important;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+
+.gallery2 img {
+    margin-bottom: 15px;
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.gallery2 img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.ul-serv {
+    line-height: 180%;
+    font-size: 20px;
+    list-style: radial-gradient(#90a7c4, #4a919e);
+    margin-left: 5%;
+}
+
+li {
+    font-size: 20px;
+}
+
+/* footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* .image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 8px;
+} */
+
+/* .show {
+    display: block !important;
+} */
+
+
+/* @media(max-width: 768px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    [class^="col-"] {
+        width: 100%;
+    }
+
+    main {
+        margin: 0px;
+        padding: 10px 15px 20px 15px;
+    }
+
+    aside {
+        display: none;
+        height: auto;
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 25px;
+    }
+
+    .slidershow {
+        width: 300px;
+        height: 300px;
+    }
+
+    .gallery img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .interest ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #menu-btn {
+        display: block;
+    }
+
+} */
